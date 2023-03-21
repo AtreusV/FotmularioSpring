@@ -58,18 +58,16 @@ $('#buscarId').on('click',function(){
         Type:"GET",
         dataType:"JSON",
         success:function(respuesta){
-            if(respuesta==null){
-                alert("No se encontro el usuario.")
+            if(respuesta!=null){
+                tabla.innerHTML += 
+                '<tr><td>' + respuesta.idUsuario +
+                '<td>' + respuesta.nombreUsu +
+                '<td>' + respuesta.pais +
+                '<td>' + respuesta.fechaNac +
+                '<td>' + respuesta.correoUsu
             }else{
+                console.log("No se encontro el usuario.")
                 console.log(respuesta)
-                for (i = 0;i <= respuesta.length; i++){
-                    tabla.innerHTML += 
-                    '<tr><td>' + respuesta[i].idUsuario +
-                    '<td>' + respuesta[i].nombreUsu +
-                    '<td>' + respuesta[i].pais +
-                    '<td>' + respuesta[i].fechaNac +
-                    '<td>' + respuesta[i].correoUsu
-                }
             }
         }
     })
