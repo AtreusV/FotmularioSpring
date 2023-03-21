@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <ul>
+            <li>
+                <label>ID usuario: </label>
+                <input type="number" id="idUsuario">
+            </li>
+            <li>
+                <label>Nombre: </label>
+                <input type="text" id="nomUsuario">
+            </li>
+            <li>
+                <label>País: </label>
+                <input type="text" id="paisUsu">
+            </li>
+            <li>
+                <label>Fecha Nacimiento: </label>
+                <input type="date" id="FechaNac">
+            </li>
+            <li>
+                <label>Correo: </label>
+                <input type="email" id="CorrUsu">
+            </li>
+            <li>
+                <button type="button" id="enviar">Enviar</button>
+                <button type="button" id="listar">Listar</button>
+            </li>
+        </ul>
+    </form>
+
+    <form action="" id="form2">
+        <ul>
+            <li>
+                <label for="">Numero Id:</label>
+                <input type="text" id="codigo">
+                <button type="button" id="buscarId">Buscar</button>
+            </li>
+        </ul>
+    </form>
+
+    <table id="tabla">
+        <tr>
+            <th>ID</th>
+            <th>NOMBRE</th>
+            <th>PAÍS</th>
+            <th>FECHA NACIMIENTO</th>
+            <th>CORREO</th>
+        </tr>
+    </table>
+
+    
+    <script src="js/enviar.js"></script>
+</body>
+</html>

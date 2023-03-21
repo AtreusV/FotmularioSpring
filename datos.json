@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "nomUsuario":"Arturo",
+        "paisUsu":"Colombia",
+        "FechaNac":"2004-09-16",
+        "CorrUsu":"Arturo@mail.com"
+    },
+    {
+        "id":2,
+        "nomUsuario":"Arnulfo",
+        "paisUsu":"korea",
+        "FechaNac":"2003-09-16",
+        "CorrUsu":"Arnulfo@mail.com"
+    },
+    {
+        "id":3,
+        "nomUsuario":"hernesto",
+        "paisUsu":"Salvador",
+        "FechaNac":"2004-08-16",
+        "CorrUsu":"Salvamest@mail.com"
+    },
+    {
+        "id":4,
+        "nomUsuario":"Estegoscarsaurio",
+        "paisUsu":"Estados unidos",
+        "FechaNac":"2004-09-17",
+        "CorrUsu":"stegosaurio980_ñ_@mail.com"
+    }
+]
