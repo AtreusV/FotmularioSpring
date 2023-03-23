@@ -25,11 +25,11 @@ $(document).ready(function() {
 
 $('#enviar').on('click',function(){
     let datos = {
-        id: parseInt($('#idUsuario').val()),
-        nomUsuario: $('#nomUsuario').val(),
-        paisUsu: $('#paisUsu').val(),
+        idUsuario: parseInt($('#idUsuario').val()),
+        nombreUsu: $('#nomUsuario').val(),
+        pais: $('#paisUsu').val(),
         fechaNa: $('#fechaNac').val(),
-        CorrUsu: $('#CorrUsu').val()
+        correoUsu: $('#CorrUsu').val()
     }
     console.log(datos)
 
@@ -40,7 +40,7 @@ $('#enviar').on('click',function(){
         type: "POST",
         data: datosEnvio,
         contentType: "application/JSON",
-        dataType: "JSON",
+        dataType: "TEXT",
         success: function(respuesta) {
             alert(respuesta)
         }
