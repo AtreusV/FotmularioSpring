@@ -15,7 +15,7 @@ $(document).ready(function() {
                     '<tr><td>' + respuesta[i].idUsuario +
                     '<td>' + respuesta[i].nombreUsu +
                     '<td>' + respuesta[i].pais +
-                    '<td>' + respuesta[i].fechaNac +
+                    '<td>' + respuesta[i].fechaNa +
                     '<td>' + respuesta[i].correoUsu
                 }
             }

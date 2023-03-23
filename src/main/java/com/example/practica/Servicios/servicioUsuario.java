@@ -10,9 +10,9 @@ public class servicioUsuario {
     ArrayList<Usuario> lista= new ArrayList<>();
 
     public  servicioUsuario(){
-        lista.add(new Usuario(10,"Arturo","colombia",LocalDate.of(2023,9,16),"Arturo@mail.com"));
-        lista.add(new Usuario(11,"Pablo","Ecuador",LocalDate.of(2023,9,16),"Pablo@mail.com"));
-        lista.add(new Usuario(12,"Juan","Polonia",LocalDate.of(2023,9,16),"Juan@mail.com"));
+        lista.add(new Usuario(10,"Arturo","colombia",LocalDate.of(2023,02,28),"Arturo@mail.com"));
+        lista.add(new Usuario(11,"Pablo","Ecuador",LocalDate.of(2023,03,14),"Pablo@mail.com"));
+        lista.add(new Usuario(12,"Juan","Polonia",LocalDate.of(2023,04,16),"Juan@mail.com"));
     }
 
     public ArrayList<Usuario> listar(){
@@ -20,7 +20,7 @@ public class servicioUsuario {
     }
 
     public String agregarUsuario(Usuario usuario){
-        lista.add(usuario);
+        lista.add((usuario));
         return "registro exitoso";
     }
 
